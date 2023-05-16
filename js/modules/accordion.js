@@ -13,7 +13,6 @@ export default class Accordion {
 		item.nextElementSibling.classList.toggle(this.activeClass);
 	}
 
-
 	// Adiciona os eventos ao accordion
 	addAccordionEvent() {
 		// foreach para passar por cada item do array aplicando a arrow function que vai criar um evento do tipo 'click' que vai chamar a função 'activeAccordion'
